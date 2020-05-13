@@ -1,0 +1,16 @@
+PODS:
+  - DJAudioManager (0.1.0)
+
+DEPENDENCIES:
+  - DJAudioManager (from `../`)
+
+EXTERNAL SOURCES:
+  DJAudioManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DJAudioManager: a9db0652c06648f6b2ca4ca5e7094077a479b6af
+
+PODFILE CHECKSUM: 43b58ac4eb5e19f520971e5f23311297676542ab
+
+COCOAPODS: 1.9.1

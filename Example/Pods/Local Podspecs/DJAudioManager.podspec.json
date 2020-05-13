@@ -1,0 +1,22 @@
+{
+  "name": "DJAudioManager",
+  "version": "0.1.0",
+  "summary": "A short description of DJAudioManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Jae-sun/DJAudioManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jae-sun": "1016097566@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Jae-sun/DJAudioManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DJAudioManager/Classes/**/*"
+}

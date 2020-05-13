@@ -1,0 +1,6 @@
+framework module DJAudioManager {
+  umbrella header "DJAudioManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
