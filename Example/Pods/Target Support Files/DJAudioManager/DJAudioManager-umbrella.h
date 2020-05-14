@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "DJAudioRecordManager.h"
 
 FOUNDATION_EXPORT double DJAudioManagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char DJAudioManagerVersionString[];

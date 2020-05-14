@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1ADED6A5BB689CEB14657687D93C1F75 /* DJAudioManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5586E1044B7AEB1FB0117D3FC11C9D /* DJAudioManager-dummy.m */; };
 		1F278BCEE3E6166CA3B407A52964D844 /* Pods-DJAudioManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60E9B3AE473B09F83AE8D3F1A2DBDA26 /* Pods-DJAudioManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		249F0A00061F4D9926C5EBDF7F279DD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		323BB1C12F42A4E4AE6E0576EE4F4C5D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = FF90C1988416CD4FB4A9C6F650409DA9 /* ReplaceMe.m */; };
+		249F0A00061F4D9926C5EBDF7F279DD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D6E9397FFE294EF13B942ECB61B709 /* Foundation.framework */; };
+		3438E37C159FA846C4A3C42AEFC85AB4 /* DJAudioRecordManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A646831D945ECB6B22F116CF518883 /* DJAudioRecordManager.m */; };
 		7A4E95DD61B7E72F51FB1CC3BA60F511 /* Pods-DJAudioManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A9A30CD85517982900F80AA1CB5C7B /* Pods-DJAudioManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C495427A82A718B7D7FB36F2E22DA81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		888FB8CF6702805E4B02661339879255 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25040AA2E4216FC19F13F13E7000D9D /* AVKit.framework */; };
 		8E0BB59DCB55CBB9F6F0EB54C1300F3D /* Pods-DJAudioManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4D91D693A22762453E135382973BF7 /* Pods-DJAudioManager_Tests-dummy.m */; };
-		A106C4F97B6BE51301090F4024209C26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		CAE94CAB0BC61B149FDA2D842072F350 /* DJAudioManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDC701CB14458216DCE89A260C7D0B1D /* DJAudioManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E4BDD4D2E436935C2BAA4A773120D91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D6E9397FFE294EF13B942ECB61B709 /* Foundation.framework */; };
+		916DC6FF3BA161C0B6F68392F29C3169 /* DJAudioManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AE9C6E12482D5F061B9AE7253B6702 /* DJAudioManager-dummy.m */; };
+		A106C4F97B6BE51301090F4024209C26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D6E9397FFE294EF13B942ECB61B709 /* Foundation.framework */; };
 		D41613A2D3C6B6D42025531B7300F021 /* Pods-DJAudioManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B69EED3B146339197473E0D612E1C782 /* Pods-DJAudioManager_Example-dummy.m */; };
+		DC83C041F27ABF663EA6B39D9290E556 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E61CF249CC4C11AC3F1DE3806D30E4 /* UIKit.framework */; };
+		E8EE4FB15A4F972C2D78268C0BD36F0E /* DJAudioManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CBA822BA335B2C6D77E2FF975D78857 /* DJAudioManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCDE4067370F06A2671B070840023B35 /* DJAudioRecordManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EC67CFC4F914E9397A0C727E04A0CDFB /* DJAudioRecordManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,39 +40,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09DA090DEE2CF6C3CF763AE602EA54CE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		18CA64C7948C9EDB545E6ECC3DBC1770 /* Pods-DJAudioManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DJAudioManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		19CF7580B8AD03B5DCE68B0B40CC25C4 /* DJAudioManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DJAudioManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1B4D91D693A22762453E135382973BF7 /* Pods-DJAudioManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DJAudioManager_Tests-dummy.m"; sourceTree = "<group>"; };
-		1BD0DF643579E116D11ACB4639C07E27 /* DJAudioManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DJAudioManager-Info.plist"; sourceTree = "<group>"; };
+		20AE9C6E12482D5F061B9AE7253B6702 /* DJAudioManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DJAudioManager-dummy.m"; sourceTree = "<group>"; };
 		2117AE578C06EA487C96261AB0EF6731 /* Pods-DJAudioManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DJAudioManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		35A29AB2AC66174BACA1F6157D2CD918 /* Pods-DJAudioManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DJAudioManager_Example-Info.plist"; sourceTree = "<group>"; };
+		3CBA822BA335B2C6D77E2FF975D78857 /* DJAudioManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DJAudioManager-umbrella.h"; sourceTree = "<group>"; };
+		44FC9A2C0B185F3FBB6DB3006F42EF8A /* DJAudioManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DJAudioManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		45F6170993945E48D8A3EB2E5F1EA290 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		47BD200C6C72A3EA67DEA440F9A3A025 /* Pods-DJAudioManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DJAudioManager_Example.modulemap"; sourceTree = "<group>"; };
 		4E639C892604D001BBC714318E81618F /* Pods_DJAudioManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DJAudioManager_Example.framework; path = "Pods-DJAudioManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53E61CF249CC4C11AC3F1DE3806D30E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5D263A3D0CC8DA5E4A0F83981116163F /* DJAudioManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DJAudioManager.release.xcconfig; sourceTree = "<group>"; };
 		60E9B3AE473B09F83AE8D3F1A2DBDA26 /* Pods-DJAudioManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DJAudioManager_Tests-umbrella.h"; sourceTree = "<group>"; };
-		66AAF5A291E3274BD06E5CBF23C6165A /* DJAudioManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DJAudioManager.debug.xcconfig; sourceTree = "<group>"; };
-		66EF63C74B7737D44908365DFF4EFB0E /* DJAudioManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DJAudioManager.modulemap; sourceTree = "<group>"; };
 		73750FBAE9E264E0D1DCFEA758AF3686 /* Pods-DJAudioManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DJAudioManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7D5586E1044B7AEB1FB0117D3FC11C9D /* DJAudioManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DJAudioManager-dummy.m"; sourceTree = "<group>"; };
+		76AE6663E2EA7429A58894647BCCE9A8 /* DJAudioManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DJAudioManager-Info.plist"; sourceTree = "<group>"; };
+		804CA0D375D1CE81C3B806928306EB43 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		87A9A30CD85517982900F80AA1CB5C7B /* Pods-DJAudioManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DJAudioManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		88E11635B4AE0E1B7C259F7A467324BD /* DJAudioManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DJAudioManager.modulemap; sourceTree = "<group>"; };
 		8EC5E078ADD804CAB2EC0778A797549F /* Pods_DJAudioManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DJAudioManager_Tests.framework; path = "Pods-DJAudioManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94245C6F829649A7E216ECD1B63B0C5B /* Pods-DJAudioManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DJAudioManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A241546C8385165AFFCA5FFA3D3CCFE1 /* Pods-DJAudioManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DJAudioManager_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A85415672BCFFFEB18D75C63C67048C8 /* Pods-DJAudioManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DJAudioManager_Tests-Info.plist"; sourceTree = "<group>"; };
+		B25040AA2E4216FC19F13F13E7000D9D /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVKit.framework; sourceTree = DEVELOPER_DIR; };
 		B69EED3B146339197473E0D612E1C782 /* Pods-DJAudioManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DJAudioManager_Example-dummy.m"; sourceTree = "<group>"; };
+		C2D6E9397FFE294EF13B942ECB61B709 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C5A646831D945ECB6B22F116CF518883 /* DJAudioRecordManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DJAudioRecordManager.m; path = DJAudioManager/Classes/DJAudioRecordManager.m; sourceTree = "<group>"; };
+		C8F0A69182B1D418E63BAF22566724ED /* DJAudioManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DJAudioManager-prefix.pch"; sourceTree = "<group>"; };
 		CD2E952D6A66A11033F14F3B45D5120F /* Pods-DJAudioManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DJAudioManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D5AF366D9F6312A7FACF30E482028E5F /* DJAudioManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DJAudioManager.release.xcconfig; sourceTree = "<group>"; };
 		E5929F1EF5A40B88BC358032A8D813B3 /* DJAudioManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DJAudioManager.framework; path = DJAudioManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E90052D30FDF4BEC69559B83F7205B41 /* Pods-DJAudioManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DJAudioManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		EE31312DC0AE574405721CBFE25EC9A4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		F519C5054031F859A0A57ED046A9D76D /* DJAudioManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DJAudioManager-prefix.pch"; sourceTree = "<group>"; };
-		FDC701CB14458216DCE89A260C7D0B1D /* DJAudioManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DJAudioManager-umbrella.h"; sourceTree = "<group>"; };
+		EC67CFC4F914E9397A0C727E04A0CDFB /* DJAudioRecordManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DJAudioRecordManager.h; path = DJAudioManager/Classes/DJAudioRecordManager.h; sourceTree = "<group>"; };
 		FF0C4D1543747BF989FAF4E02BCA244C /* Pods-DJAudioManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DJAudioManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FF357B3FCBF63A17A659B0D12571972C /* Pods-DJAudioManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DJAudioManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FF382725E448102431D71CC69533D802 /* Pods-DJAudioManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DJAudioManager_Tests.modulemap"; sourceTree = "<group>"; };
-		FF90C1988416CD4FB4A9C6F650409DA9 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = DJAudioManager/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		FFDA1052EE3735A5677DD50313995258 /* DJAudioManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DJAudioManager.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +87,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B3F2B937FB77A3BEB889DA1EF9EFA9B /* Frameworks */ = {
+		54DD8A766BA91A2EEE7513971F978B29 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C495427A82A718B7D7FB36F2E22DA81 /* Foundation.framework in Frameworks */,
+				888FB8CF6702805E4B02661339879255 /* AVKit.framework in Frameworks */,
+				8E4BDD4D2E436935C2BAA4A773120D91 /* Foundation.framework in Frameworks */,
+				DC83C041F27ABF663EA6B39D9290E556 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,14 +108,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0215EB931668FFFD43DB906D5B849C66 /* Pod */ = {
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				19CF7580B8AD03B5DCE68B0B40CC25C4 /* DJAudioManager.podspec */,
-				EE31312DC0AE574405721CBFE25EC9A4 /* LICENSE */,
-				09DA090DEE2CF6C3CF763AE602EA54CE /* README.md */,
+				778352449A0BFE09119436E52A8F6F9E /* iOS */,
 			);
-			name = Pod;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		05249C02AFB51B7EF823F75EA403E6E9 /* Targets Support Files */ = {
@@ -119,39 +125,70 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BE5E7667FA7F3C2AE08972E7EACD8257 /* Development Pods */ = {
+		64DC30C53D2908A634CB65E6D90A5DEE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EF2A6C30400870C94A1147BEBA3CA2DC /* DJAudioManager */,
+				88E11635B4AE0E1B7C259F7A467324BD /* DJAudioManager.modulemap */,
+				20AE9C6E12482D5F061B9AE7253B6702 /* DJAudioManager-dummy.m */,
+				76AE6663E2EA7429A58894647BCCE9A8 /* DJAudioManager-Info.plist */,
+				C8F0A69182B1D418E63BAF22566724ED /* DJAudioManager-prefix.pch */,
+				3CBA822BA335B2C6D77E2FF975D78857 /* DJAudioManager-umbrella.h */,
+				FFDA1052EE3735A5677DD50313995258 /* DJAudioManager.debug.xcconfig */,
+				5D263A3D0CC8DA5E4A0F83981116163F /* DJAudioManager.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DJAudioManager";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		711A444EDCB19242A74B39728F653A57 /* DJAudioManager */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				EC67CFC4F914E9397A0C727E04A0CDFB /* DJAudioRecordManager.h */,
+				C5A646831D945ECB6B22F116CF518883 /* DJAudioRecordManager.m */,
+				95E4C041C111CDFC9BCE3D81DF5460C2 /* Pod */,
+				64DC30C53D2908A634CB65E6D90A5DEE /* Support Files */,
+			);
+			name = DJAudioManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		778352449A0BFE09119436E52A8F6F9E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B25040AA2E4216FC19F13F13E7000D9D /* AVKit.framework */,
+				C2D6E9397FFE294EF13B942ECB61B709 /* Foundation.framework */,
+				53E61CF249CC4C11AC3F1DE3806D30E4 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		95E4C041C111CDFC9BCE3D81DF5460C2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				44FC9A2C0B185F3FBB6DB3006F42EF8A /* DJAudioManager.podspec */,
+				45F6170993945E48D8A3EB2E5F1EA290 /* LICENSE */,
+				804CA0D375D1CE81C3B806928306EB43 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C802767385DE1BC4663BF6D1AE55E021 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				711A444EDCB19242A74B39728F653A57 /* DJAudioManager */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				BE5E7667FA7F3C2AE08972E7EACD8257 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C802767385DE1BC4663BF6D1AE55E021 /* Development Pods */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
 				EFEB917EA5DC34EB5DFE7D395400E276 /* Products */,
 				05249C02AFB51B7EF823F75EA403E6E9 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		D992A6FC48008A85E45590F51DBA5A27 /* Pods-DJAudioManager_Tests */ = {
@@ -168,32 +205,6 @@
 			);
 			name = "Pods-DJAudioManager_Tests";
 			path = "Target Support Files/Pods-DJAudioManager_Tests";
-			sourceTree = "<group>";
-		};
-		DF34F059F85814D1159646672DD9DF4F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				66EF63C74B7737D44908365DFF4EFB0E /* DJAudioManager.modulemap */,
-				7D5586E1044B7AEB1FB0117D3FC11C9D /* DJAudioManager-dummy.m */,
-				1BD0DF643579E116D11ACB4639C07E27 /* DJAudioManager-Info.plist */,
-				F519C5054031F859A0A57ED046A9D76D /* DJAudioManager-prefix.pch */,
-				FDC701CB14458216DCE89A260C7D0B1D /* DJAudioManager-umbrella.h */,
-				66AAF5A291E3274BD06E5CBF23C6165A /* DJAudioManager.debug.xcconfig */,
-				D5AF366D9F6312A7FACF30E482028E5F /* DJAudioManager.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DJAudioManager";
-			sourceTree = "<group>";
-		};
-		EF2A6C30400870C94A1147BEBA3CA2DC /* DJAudioManager */ = {
-			isa = PBXGroup;
-			children = (
-				FF90C1988416CD4FB4A9C6F650409DA9 /* ReplaceMe.m */,
-				0215EB931668FFFD43DB906D5B849C66 /* Pod */,
-				DF34F059F85814D1159646672DD9DF4F /* Support Files */,
-			);
-			name = DJAudioManager;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		EFEB917EA5DC34EB5DFE7D395400E276 /* Products */ = {
@@ -226,19 +237,20 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		16B2413E649A24530737B3C3A0D380DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8EE4FB15A4F972C2D78268C0BD36F0E /* DJAudioManager-umbrella.h in Headers */,
+				FCDE4067370F06A2671B070840023B35 /* DJAudioRecordManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4A91A759D64AFDC64FA9ECB63BABFD46 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1F278BCEE3E6166CA3B407A52964D844 /* Pods-DJAudioManager_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6FA205CE4B47BA83B422A7D04B25E9AD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CAE94CAB0BC61B149FDA2D842072F350 /* DJAudioManager-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,12 +286,12 @@
 		};
 		CE03EA4BFE9774E2C8FCF1213E1DBFAD /* DJAudioManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB3FE58E6B76D89AD5B3B04AC39758C1 /* Build configuration list for PBXNativeTarget "DJAudioManager" */;
+			buildConfigurationList = 9ED5C550B60659E6B541D765734B343E /* Build configuration list for PBXNativeTarget "DJAudioManager" */;
 			buildPhases = (
-				6FA205CE4B47BA83B422A7D04B25E9AD /* Headers */,
-				893D7BAB42999299BD9430C218AF787F /* Sources */,
-				7B3F2B937FB77A3BEB889DA1EF9EFA9B /* Frameworks */,
-				C704B88FAF7C76DA1599B55C18DA2537 /* Resources */,
+				16B2413E649A24530737B3C3A0D380DA /* Headers */,
+				B6E6DF4A08A28E2C0AE908203DFE153F /* Sources */,
+				54DD8A766BA91A2EEE7513971F978B29 /* Frameworks */,
+				E07B9FB7F44418A4C623527A1F356483 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -346,14 +358,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C704B88FAF7C76DA1599B55C18DA2537 /* Resources */ = {
+		C84041F9080D8D39EFBCCB62AFBF7067 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C84041F9080D8D39EFBCCB62AFBF7067 /* Resources */ = {
+		E07B9FB7F44418A4C623527A1F356483 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,12 +375,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		893D7BAB42999299BD9430C218AF787F /* Sources */ = {
+		B6E6DF4A08A28E2C0AE908203DFE153F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ADED6A5BB689CEB14657687D93C1F75 /* DJAudioManager-dummy.m in Sources */,
-				323BB1C12F42A4E4AE6E0576EE4F4C5D /* ReplaceMe.m in Sources */,
+				916DC6FF3BA161C0B6F68392F29C3169 /* DJAudioManager-dummy.m in Sources */,
+				3438E37C159FA846C4A3C42AEFC85AB4 /* DJAudioRecordManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +445,38 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E3FAC6C3DFECDC424108142DA1980F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFDA1052EE3735A5677DD50313995258 /* DJAudioManager.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DJAudioManager/DJAudioManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DJAudioManager/DJAudioManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DJAudioManager/DJAudioManager.modulemap";
+				PRODUCT_MODULE_NAME = DJAudioManager;
+				PRODUCT_NAME = DJAudioManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -597,10 +641,11 @@
 			};
 			name = Debug;
 		};
-		873666EBE60FAC747A8E09ECBB13DB2E /* Debug */ = {
+		B06B8DECA28FEBCD022B2603B5140224 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66AAF5A291E3274BD06E5CBF23C6165A /* DJAudioManager.debug.xcconfig */;
+			baseConfigurationReference = 5D263A3D0CC8DA5E4A0F83981116163F /* DJAudioManager.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -613,7 +658,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/DJAudioManager/DJAudioManager-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/DJAudioManager/DJAudioManager-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/DJAudioManager/DJAudioManager.modulemap";
 				PRODUCT_MODULE_NAME = DJAudioManager;
@@ -623,10 +668,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		D37D775E390D742B59F1440DA3B00D67 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -695,38 +741,6 @@
 			};
 			name = Release;
 		};
-		F308CDCC2259A922B6F5032B61B2CB2A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5AF366D9F6312A7FACF30E482028E5F /* DJAudioManager.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DJAudioManager/DJAudioManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DJAudioManager/DJAudioManager-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DJAudioManager/DJAudioManager.modulemap";
-				PRODUCT_MODULE_NAME = DJAudioManager;
-				PRODUCT_NAME = DJAudioManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -748,11 +762,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB3FE58E6B76D89AD5B3B04AC39758C1 /* Build configuration list for PBXNativeTarget "DJAudioManager" */ = {
+		9ED5C550B60659E6B541D765734B343E /* Build configuration list for PBXNativeTarget "DJAudioManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				873666EBE60FAC747A8E09ECBB13DB2E /* Debug */,
-				F308CDCC2259A922B6F5032B61B2CB2A /* Release */,
+				2E3FAC6C3DFECDC424108142DA1980F7 /* Debug */,
+				B06B8DECA28FEBCD022B2603B5140224 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

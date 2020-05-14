@@ -1,5 +1,5 @@
 PODS:
-  - DJAudioManager (0.1.0)
+  - DJAudioManager (0.0.1)
 
 DEPENDENCIES:
   - DJAudioManager (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DJAudioManager: a9db0652c06648f6b2ca4ca5e7094077a479b6af
+  DJAudioManager: 55d945138ca92d2b7be697da7c8e04272dcaf02f
 
 PODFILE CHECKSUM: 43b58ac4eb5e19f520971e5f23311297676542ab
 

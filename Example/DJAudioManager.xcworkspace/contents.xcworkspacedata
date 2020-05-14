@@ -5,6 +5,10 @@
       location = "group:DJAudioManager.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:Podfile"
+      assignedFileDataType = "public.ruby-script">
+   </FileRef>
+   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
