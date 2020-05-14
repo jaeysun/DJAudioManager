@@ -22,7 +22,7 @@ pod 'DJAudioManager'
 
 ## Author
 
-Jae-sun, 1016097566@qq.com
+Jaeysun, jaeysun@163.com
 
 ## License
 
